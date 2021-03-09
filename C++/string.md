@@ -1,13 +1,15 @@
 [TOC]
 
-
+# 规律
+1. 不要总是尝试int(c),str 和 str 也能比较
+2. 不要用 for :,除非不做处理
 
 ## 读取一行
 ```
     string s;
     getline(cin,s);
 ```
-如果使用`cin` 遇到空格/换行符会
+如果使用`cin` 遇到空格/换行符会停止输入
 
 
 ## s.size() : 忽略空格
@@ -37,4 +39,26 @@ for (int i = 0,j=1; i + 1 < s.size(); i++)
         cout << s << endl;
     }
 
+```
+
+## 插入 insert()
+
+
+## ACSII
+```
+    for (char c : s) {
+        a[c - 'a']++;
+    }
+
+    for (char c : s) {
+        if (a[c - 'a'] == 1) {
+            cout << c;
+            return 0;
+        }
+    }
+```
+
+## 转化char 为小写
+```
+tolower()
 ```
