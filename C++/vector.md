@@ -11,7 +11,7 @@ int minnum = *min_element(a.begin(),a.end());
 int minpos = min_element(a.begin(),a.end())-a.begin();
 ```
 
-## 输入 v.push_back()
+## 添加到末尾 v.push_back()
 ```
     for(int i=0;i<n;i++)
     {
@@ -20,3 +20,4 @@ int minpos = min_element(a.begin(),a.end())-a.begin();
         a.push_back(temp);
     }
 ```
+## 添加到首项 v.insert(v.begin(),s); 
