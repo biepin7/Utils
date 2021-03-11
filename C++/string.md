@@ -62,3 +62,7 @@ for (int i = 0,j=1; i + 1 < s.size(); i++)
 ```
 tolower()
 ```
+## 寻找字串
+```
+if(a.find(b)>=0 & a.find(b)<a.size()) cout<<"true";
+```
