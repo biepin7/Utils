@@ -33,4 +33,10 @@ int main() {
         cout << i->val << endl;
     }
     return 0;
+    
+    // 遍历的另一种做法
+    // while(head){
+    //         res.insert(res.begin(),head->val);
+    //         head=head->next;
+    //     }
 }

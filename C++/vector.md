@@ -21,3 +21,10 @@ int minpos = min_element(a.begin(),a.end())-a.begin();
     }
 ```
 ## 添加到首项 v.insert(v.begin(),s); 
+
+## 反向
+```
+return vector<int>(res.rbegin(), res.rend());
+
+reverse(res.begin(), res.end();
+```
