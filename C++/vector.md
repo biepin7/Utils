@@ -3,6 +3,7 @@
 ## 创建 vector 数组
 ```
 vector<int> a;
+vector<int> mp(100001,0)
 ```
 
 ## 最大最小值 和其下标
