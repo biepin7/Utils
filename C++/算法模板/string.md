@@ -66,3 +66,8 @@ tolower()
 ```
 if(a.find(b)>=0 & a.find(b)<a.size()) cout<<"true";
 ```
+
+## stoi  string转int
+```
+s.push(stoi(t)); // stoi:string to int 
+```
